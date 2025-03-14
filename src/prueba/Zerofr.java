@@ -48,32 +48,21 @@ public class Zerofr extends JFrame {
 		contentPane.setLayout(null);
 		
 		JButton btn = new JButton("Clk");
-		btn.setBounds(286, 97, 60, 23);
+		btn.setBounds(167, 120, 47, 23);
 		contentPane.add(btn);
 		
-		oct01 = new JTextField();
-		oct01.setBounds(58, 41, 66, 20);
-		contentPane.add(oct01);
-		oct01.setColumns(10);
+		JPanel panel01 = new JPanel();
+		panel01.setBackground(new Color(128, 128, 64));
+		panel01.setBounds(276, 122, 100, 100);
+		contentPane.add(panel01);
 		
-		oct02 = new JTextField();
-		oct02.setColumns(10);
-		oct02.setBounds(134, 41, 66, 20);
-		contentPane.add(oct02);
+		JButton btnNewButton = new JButton("New button");
+		panel01.add(btnNewButton);
 		
-		oct03 = new JTextField();
-		oct03.setColumns(10);
-		oct03.setBounds(210, 41, 66, 20);
-		contentPane.add(oct03);
+		JPanel panel02 = new JPanel();
+		panel02.setBounds(10, 200, 10, 10);
+		contentPane.add(panel02);
 		
-		oct04 = new JTextField();
-		oct04.setColumns(10);
-		oct04.setBounds(286, 41, 66, 20);
-		contentPane.add(oct04);
-		
-		oct05 = new JTextField();
-		oct05.setColumns(10);
-		oct05.setBounds(175, 72, 66, 20);
-		contentPane.add(oct05);
+	
 	}
 }
